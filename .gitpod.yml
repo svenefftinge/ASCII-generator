@@ -1,0 +1,6 @@
+image:
+  file: Dockerfile
+tasks:
+- command: >
+    python img2txt.py --input demo/input.jpg --output demo/output.txt &&
+    gp open demo/output.txt

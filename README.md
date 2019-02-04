@@ -2,10 +2,14 @@
 
 ## Introduction
 
-Here is my python source code for ASCII generator. with my code, you could: 
+Here is my python source code for ASCII generator. with my code, you could:
 * **Given input image, you could generate ASCII art stored under text format (.txt)**
 * **Given input image, you could generate ASCII art stored under image formats (.png, .jpg, ...). In each format, there are 2 options: Black background and white characters, or vice versa**
 * **Given input video, you could generate ASCII art stored under video formats (.avi, .mp4, ...)**
+
+Try it out in a free online dev environment:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vietnguyen91/ASCII-generator)
 
 ## Video to video
 By running the sript **video2video.py** with different values for *background* and *mode*, we will have following outputs:
@@ -82,5 +86,5 @@ By running the sript **img2img.py** with different values for *background* and *
 
 * **python 3.6**
 * **cv2**
-* **PIL** 
+* **PIL**
 * **numpy**
